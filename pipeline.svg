@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" font-family="'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-label="Cycle de vie d'une solution IA">
+<defs><linearGradient id="pg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6D28D9"/><stop offset="1" stop-color="#C026D3"/></linearGradient></defs>
+<style>
+.ring{fill:none;stroke:#C084FC;stroke-width:2.5;animation:rg 4.8s ease-out infinite}
+@keyframes rg{0%{transform:scale(.95);opacity:.9}35%,100%{transform:scale(1.35);opacity:0}}
+.ring{transform-box:fill-box;transform-origin:center}
+.fl{stroke:#A855F7;stroke-width:3;stroke-dasharray:3 9;stroke-linecap:round;animation:dash 1.4s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-24}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x="1" y="1" width="998" height="238" rx="22" fill="#FAF5FF" stroke="#E9D5FF" stroke-width="2"/>
+<g transform="translate(100 100)">
+<circle class="ring" r="40" style="animation-delay:0.0s"/>
+<circle r="38" fill="url(#pg)"/>
+<g fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="0" cy="-10" rx="14" ry="5"/><path d="M-14 -10V10A14 5 0 0 0 14 10V-10M-14 0A14 5 0 0 0 14 0"/></g></g>
+<text x="100" y="176" text-anchor="middle" font-size="15.5" font-weight="700" fill="#3B0764">Données</text><line class="fl" x1="146" y1="100" x2="254" y2="100"/><g transform="translate(300 100)">
+<circle class="ring" r="40" style="animation-delay:1.2s"/>
+<circle r="38" fill="url(#pg)"/>
+<g fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-14 -9L0 0M-14 9L0 0M0 0L14 -9M0 0L14 9M-14 -9L-14 9M14 -9L14 9"/><g fill="#fff"><circle cx="-14" cy="-9" r="3.2"/><circle cx="-14" cy="9" r="3.2"/><circle cx="0" cy="0" r="3.8"/><circle cx="14" cy="-9" r="3.2"/><circle cx="14" cy="9" r="3.2"/></g></g></g>
+<text x="300" y="176" text-anchor="middle" font-size="15.5" font-weight="700" fill="#3B0764">Modélisation ML et DL</text><line class="fl" x1="346" y1="100" x2="454" y2="100"/><g transform="translate(500 100)">
+<circle class="ring" r="40" style="animation-delay:2.4s"/>
+<circle r="38" fill="url(#pg)"/>
+<g fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-15 -8H15M-15 8H15"/><g fill="#fff"><circle cx="-5" cy="-8" r="4.5"/><circle cx="6" cy="8" r="4.5"/></g></g></g>
+<text x="500" y="176" text-anchor="middle" font-size="15.5" font-weight="700" fill="#3B0764">Fine-tuning</text><line class="fl" x1="546" y1="100" x2="654" y2="100"/><g transform="translate(700 100)">
+<circle class="ring" r="40" style="animation-delay:3.5999999999999996s"/>
+<circle r="38" fill="url(#pg)"/>
+<g fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0 12V-9M-9 -1L0 -10L9 -1M-13 15H13"/></g></g>
+<text x="700" y="176" text-anchor="middle" font-size="15.5" font-weight="700" fill="#3B0764">Déploiement et MLOps</text><line class="fl" x1="746" y1="100" x2="854" y2="100"/><g transform="translate(900 100)">
+<circle class="ring" r="40" style="animation-delay:4.8s"/>
+<circle r="38" fill="url(#pg)"/>
+<g fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-6 -9L-15 0L-6 9M6 -9L15 0L6 9M2 -12L-2 12"/></g></g>
+<text x="900" y="176" text-anchor="middle" font-size="15.5" font-weight="700" fill="#3B0764">Intégration full stack</text>
+<circle r="7" fill="#EC4899"><animateMotion dur="7s" repeatCount="indefinite" path="M100 100H900"/></circle>
+</svg>
